@@ -165,11 +165,13 @@ pnpm dev:electron-demo
 ## 📦 包列表
 
 <details>
-<summary><b>完整包列表（11 个包）</b> —— 点击展开</summary>
+<summary><b>完整包列表（13 个包）</b> —— 点击展开</summary>
 
 | 包名 | 说明 |
 |---|---|
 | `@floatboat/nexus-core` | 编辑器引擎 —— CM6 状态机、AST 管道、实时预览、事件系统、Widget API |
+| `@floatboat/nexus-plugin-api` | 浏览器安全的插件平台公共契约 |
+| `@floatboat/nexus-plugin-runtime` | 宿主无关的插件生命周期与注册表运行时 |
 | `@floatboat/nexus-react` | React 绑定 —— `useEditor` Hook 与 `<Editor />` 组件 |
 | `@floatboat/nexus-vue` | Vue 3 绑定 —— `useEditor` 组合式函数 |
 | `@floatboat/nexus-preset-gfm` | GitHub Flavored Markdown 预设（表格、删除线、任务列表） |

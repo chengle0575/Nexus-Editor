@@ -165,11 +165,13 @@ A real Electron app with file IO, live preview, and every plugin enabled — the
 ## 📦 Packages
 
 <details>
-<summary><b>Full package list (11 packages)</b> — click to expand</summary>
+<summary><b>Full package list (13 packages)</b> — click to expand</summary>
 
 | Package | Description |
 |---|---|
 | `@floatboat/nexus-core` | Editor engine — CM6 state, AST pipeline, live preview, events, widget API |
+| `@floatboat/nexus-plugin-api` | Browser-safe public contracts for the Nexus plugin platform |
+| `@floatboat/nexus-plugin-runtime` | Host-neutral lifecycle and registry runtime for Nexus plugins |
 | `@floatboat/nexus-react` | React binding — `useEditor` hook and `<Editor />` component |
 | `@floatboat/nexus-vue` | Vue 3 binding — `useEditor` composable |
 | `@floatboat/nexus-preset-gfm` | GitHub Flavored Markdown preset (tables, strikethrough, task lists) |
